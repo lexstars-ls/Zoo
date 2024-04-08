@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b6ddfd;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caseParent {
+    width: 100%;
+    display: grid;
+    background-color: white;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 10px;
+    height: 80%;
+}
+
+#case3 {
+    background-color: #58c6bc;
+    grid-row-start: 1;
+    grid-column-start: 2;
+
+    grid-row-end: 3;
+    grid-column-end: 3;
+    background-image: url(../img/zoo.jpeg);
+
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#case1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 2;
+
+    background-image: url(../img/montagne.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#case2 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 2;
+
+    background-image: url(../img/australia.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#case4 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+
+    grid-row-end: 2;
+    grid-column-end: 4;
+
+    background-image: url(../img/savane.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#case5 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+
+    grid-row-end: 3;
+    grid-column-end: 4;
+
+    background-image: url(../img/savaneNuit.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#buttonContain {
+    margin-top: 20%;
+    height: 100%;
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+button {
+    cursor: pointer;
+    border-radius: 3%;
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+button img {
+    height: 90%;
+    width: 90%;
+}
+
+button:hover {
+    /* box-shadow: -10px -10px 15px 10px rgba(45, 45, 45, 0.39); */
+    background-color: #58c6bc;
+}
+
+#buttonContain button:nth-of-type(1) {
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 2;
+
+}
+
+#buttonContain button:nth-of-type(2) {
+    grid-row-start: 1;
+    grid-column-start: 3;
+
+    grid-row-end: 2;
+    grid-column-end: 4;
+}
+
+#buttonContain button:nth-of-type(3) {
+    grid-row-start: 2;
+    grid-column-start: 2;
+
+    grid-row-end: 3;
+    grid-column-end: 3;
+}
+
+#buttonContain button:nth-of-type(4) {
+    grid-row-start: 3;
+    grid-column-start: 1;
+
+    grid-row-end: 4;
+    grid-column-end: 2;
+}
+
+#buttonContain button:nth-of-type(5) {
+    grid-row-start: 3;
+    grid-column-start: 3;
+
+    grid-row-end: 4;
+    grid-column-end: 4;
+}
