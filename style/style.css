@@ -22,7 +22,7 @@ header {
     height: 80%;
 }
 
-#case3 {
+#zoo {
     background-color: #58c6bc;
     grid-row-start: 1;
     grid-column-start: 2;
@@ -40,7 +40,7 @@ header {
 
 }
 
-#case1 {
+#montagne {
     grid-row-start: 1;
     grid-column-start: 1;
 
@@ -52,7 +52,7 @@ header {
     background-position: center;
 }
 
-#case2 {
+#australie {
     grid-row-start: 2;
     grid-column-start: 1;
 
@@ -64,7 +64,7 @@ header {
     background-position: center;
 }
 
-#case4 {
+#savane {
     grid-row-start: 1;
     grid-column-start: 3;
 
@@ -76,7 +76,7 @@ header {
     background-position: center;
 }
 
-#case5 {
+#savaneNigth {
     grid-row-start: 2;
     grid-column-start: 3;
 

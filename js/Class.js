@@ -1,18 +1,7 @@
-export function animalClass() {
-    class Animal {
-        constructor(image, taille) {
-            this.image = image;
-            this.taille = taille;
-            this.son = son;
-        }
+export class Animal {
+    constructor(image, territoire, son) {
+        this.image = image;
+        this.territoire = territoire;
+        this.son = son;
     }
-
-}   // Définition des classes pour chaque espèce
-class Lion extends Animal {
-    constructor(image, taille) {
-        super("Lion", image, taille);
-
-    }
-
-
 }

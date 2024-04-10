@@ -3,10 +3,15 @@ import { RandomSize } from "./randomSize.js";
 
 export function isBaby() {
     const taille = RandomSize();
-
-    if (taille < (2.5 * 200)) {
+   
+    // bien faire attention a l'orde de la division!
+    const tailleMaxBaby = 200 / 2.5;
+    
+    if (taille < tailleMaxBaby) {
+        
         return true;
     } else {
         return false;
     }
+
 }
