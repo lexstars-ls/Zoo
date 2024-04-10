@@ -48,8 +48,6 @@ header {
     grid-column-end: 2;
 
     background-image: url(../img/montagne.jpeg);
-    background-size: cover;
-    background-position: center;
 }
 
 #australie {
@@ -60,8 +58,6 @@ header {
     grid-column-end: 2;
 
     background-image: url(../img/australia.jpeg);
-    background-size: cover;
-    background-position: center;
 }
 
 #savane {
@@ -72,9 +68,8 @@ header {
     grid-column-end: 4;
 
     background-image: url(../img/savane.jpg);
-    background-size: cover;
-    background-position: center;
 }
+
 
 #savaneNigth {
     grid-row-start: 2;
@@ -84,8 +79,30 @@ header {
     grid-column-end: 4;
 
     background-image: url(../img/savaneNuit.webp);
+}
+
+.containerImgButton{
     background-size: cover;
     background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.containerImgButton img{
+   
+    width: 150px;
+    height: 150px;
+}
+
+.containerImgButton audio {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
 }
 
 #buttonContain {
@@ -156,3 +173,5 @@ button:hover {
     grid-row-end: 4;
     grid-column-end: 4;
 }
+
+
