@@ -70,15 +70,3 @@ export function createAudioElement(audioId, containerId, id) {
         // audio created devient true
     }
 }
-
-export function resetFunction (){
- 
-  const resetCLick = document.getElementById('tirageContainer');
-  tirageContainer.querySelectorAll('.imgContainer').forEach(element => {
-      element.remove();
-  });
-  const h2Result = document.querySelector('.h2Result');
-  if (h2Result) {
-      h2Result.remove();
-  }
-}
